@@ -27,7 +27,7 @@ function App() {
                 <TransformWrapper defaultScale={1}>
                     <TransformComponent>
                         <div className='image-container'>
-                            <img className='image' src={image} />
+                            <img className='image' src={image} alt='' />
                         </div>
                     </TransformComponent>
                 </TransformWrapper>
